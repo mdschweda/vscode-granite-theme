@@ -1,0 +1,36 @@
+{
+    "name": "vscode-granite-theme",
+    "displayName": "Granite Theme",
+    "description": "A dark theme inspired by Coal Graal.",
+    "version": "1.0.0",
+    "publisher": "mdschweda",
+    "author": "Marcus Schweda",
+    "license": "MIT",
+    "icon": "media/icon-128.png",
+    "keywords": [
+        "Theme",
+        "Coal Graal"
+    ],
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mdschweda/vscode-granite-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/mdschweda/vscode-granite-theme/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Granite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Granite Theme-color-theme.json"
+            }
+        ]
+    }
+}
